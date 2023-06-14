@@ -34,6 +34,14 @@ var Outfit =
     atractivo: "true",
 }
 
+//Operador typeof
+var vaso = agua;
+var num = 45;
+var sleep = false;
+
+console.log(typeof vaso);
+console.log(typeof num);
+console.log(typeof sleep);
 
 
 
