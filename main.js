@@ -47,7 +47,7 @@ console.log(typeof sleep);
 console.log(typeof papas);
 
 var saludo = "<br>hola";
-var want = "quiero";
+var want = "<br>quiero";
 console.log(vaso);
 
 document.querySelector("body").insertAdjacentHTML("beforebegin", saludo);
