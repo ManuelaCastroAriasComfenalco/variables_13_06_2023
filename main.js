@@ -46,6 +46,12 @@ console.log(typeof num);
 console.log(typeof sleep);
 console.log(typeof papas);
 
+
+//para hacer de un primitivo un objeto(Wrapper object)
+var edad = 17;
+var real = new Number (17);
+
+//cambiar de lugar 
 var saludo = "<br>hola";
 var want = "<br>quiero";
 console.log(vaso);
@@ -53,10 +59,6 @@ console.log(vaso);
 document.querySelector("body").insertAdjacentHTML("beforebegin", saludo);
 document.querySelector("body").insertAdjacentHTML("beforeend", want);
 document.querySelector("body").insertAdjacentHTML("beforeend", vaso);
-
-//para hacer de un primitivo un objeto(Wrapper object)
-var edad = 17;
-var real = new Number (17);
 
 
 
